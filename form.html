@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form action="inbound" method="post" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <label for="led">LED:</label>
+            <input type="number" min="0" max="59" id="led" name="led" placeholder="0" />
+            <br />
+            <label for="red">Red:</label>
+            <input type="number" min="0" max="255" id="red" name="red" placeholder="0" />
+            <br />
+            <label for="green">Green:</label>
+            <input type="number" min="0" max="255" id="green" name="green" placeholder="0" />
+            <br />
+            <label for="blue">Blue:</label>
+            <input type="number" min="0" max="255" id="blue" name="blue" placeholder="0" />
+            <br />
+            <input type="submit" value="Set LED" />
+        </fieldset>
+    </form>
+</body>
+</html>
